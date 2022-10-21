@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="text-center head">
+          <h1>cruds </h1>
+          <p>product management system</p>
+        </div>
+        <div class="inputs">
+          <input type="text" id="title" class="w-100" placeholder="title">
+          <input type="number" id="price" class="me-2 total same" placeholder="price">
+          <input type="number" id="taxes" class="me-2 total same" placeholder="taxes">
+          <input type="number" id="ads" class="me-2 total same" placeholder="ads">
+          <input type="number" id="discount" class="me-2 total same" placeholder="discount">
+          <span class="color">total:</span>
+          <span class="m-0 color" id="total"></span>
+          <input type="number" id="count"  placeholder="count" class="w-100">
+          <p id="countWarning" class="text-warning">you cant repeat more than 100 product</p>
+          <input type="text" id="category" class="w-100" placeholder="category">
+          <button class="create-ptn " id="submit" >create</button>
+          
+        </div>
+    
+        <div >
+            <input type="text" placeholder="search" id="search" class="w-100">
+            <div class="btn-container">
+                <button class="search-ptn search" id="searchByTitle">Search By Title</button>
+                <button class="search-ptn search" id="searchByCategory">Search By Category</button>
+            </div>
+            <button class="search-ptn w-100" id="deleteAll">Delete All <span id="productsNum"></span> </button>
+    
+            <table class="table text-white text-center">
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>title</th>
+                        <th>price</th>
+                        <th>price</th>
+                        <th>ads</th>
+                        <th>discount</th>
+                        <th>total</th>
+                        <th>category</th>
+                        <th>update</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    
+                </tbody>
+            </table>
+        </div>
+      </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

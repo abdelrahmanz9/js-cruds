@@ -1,0 +1,113 @@
+
+body{
+    background-color: #222 ;
+    scroll-behavior: smooth;
+}
+
+
+.head h1 {
+
+    color: white;
+    text-transform: uppercase;
+
+
+
+}
+
+.head p {
+    color: white;
+    text-transform: uppercase;
+}
+
+#deleteAll{
+    display: none;
+}
+
+
+input {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: black;
+    outline: none;
+    border: none;
+    color: white;
+
+}
+
+input:focus {
+    transform: scale(1.1);
+}
+
+
+.inputs span {
+    background-color: red;
+    color: white;
+    padding: 5px 0px;
+    margin-left: 20px;
+}
+
+.total {
+    width: 20%;
+}
+
+.create-ptn {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(151, 14, 161);
+    color: white;
+    transition: all 0.5s;
+}
+
+
+.create-ptn:hover {
+    letter-spacing: 3px;
+}
+
+.search-ptn {
+    font-size: 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(151, 14, 161);
+    color: white;
+    width: 30%;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.search-ptn {
+    transition: all 0.5s;
+    font-size: 16px;
+}
+
+.change-ptn {
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(151, 14, 161);
+    color: white;
+}
+
+thead tr th {
+    text-transform: uppercase;
+}
+
+.btn-container button:hover {
+    letter-spacing: 3px;
+}
+
+.search-ptn:hover {
+    letter-spacing: 3px;
+}
+
+#countWarning{
+    display: none;
+}
